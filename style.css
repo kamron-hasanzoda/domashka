@@ -1,0 +1,106 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+form input {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #007FFF;
+}
+
+form button {
+    all: unset;
+    background-color: #007FFF;
+    padding: 10px 20px;
+    border: 2px solid #007FFF;
+    border-radius: 10px;
+    color: #fff;
+}
+
+form button:active {
+    scale: .9;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.box {
+    padding: 30px;
+    width: 282px;
+    height: 90px;
+    background: #F0F0F0;
+    border: 1px solid #007FFF;
+    border-radius: 10px;
+    position: relative;
+}
+
+.span {
+    color: gray;
+
+}
+
+.img {
+    width: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.active {
+    text-decoration: line-through red 2px;
+}
+
+.noactive {
+    text-decoration: none;
+}
+
+.modal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    background-color: #c4c4c4;
+    left: 2000px;
+    margin: 0 auto;
+    margin-left: 1800px;
+}
+
+.change {
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 63%;
+}
+
+.container {
+    padding: 20px;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.changed {
+    cursor: pointer;
+}
+
+.ok {
+    width: 100px;
+    background-color: #007FFF;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
